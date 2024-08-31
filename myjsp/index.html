@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Event Management System</title>
+    <style>
+        body {                   
+            background-image: url("images2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            font-family: Arial, sans-serif;
+         
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+            z-index: -1;
+            }        
+        header {
+            position:sticky;
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+        }      
+        .fixed-button {
+            position: absolute;
+            right: 0;
+            top: 50%; /* Adjust the top value as needed to center vertically */
+            transform: translateY(-50%); /* Center vertically */
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;    
+        }       
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li 
+{
+    display: inline;
+}
+a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+a:hover {
+
+    transition: all 0.2s ease;
+    color: rgb(240, 240, 69);
+}
+#getStartedButton {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 5px;
+  }
+  #getStartedButton:hover {
+    background-color: #0056b3;
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+  }
+  #navbutton {   
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    
+  }
+  #navbutton:hover {
+    background-color: #0056b3;
+    transition: all 0.2s ease;
+  }
+  nav:hover{
+    transition: all 0.2s ease;
+  }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li  style="font-size: 25px;">EVENT MANAGEMENT SYSTEM</li>
+            <li  style="position: absolute; left: 40%; font-size: 20px;"><a href="ok.html">Home</a></li>
+            <li  style="position: absolute; left: 45%; font-size: 20px;"><a href="#">About</a></li>
+            <li  style="position: absolute; left: 50%; font-size: 20px;"><a href="#">Services</a></li>
+            <li  style="position: absolute; left: 56%; font-size: 20px;"><a href="#">Contact</a></li>
+            <li  style="position: absolute; right: 1%; top: 25%;"><button id="navbutton"><a href="login.jsp">Login</a></button></li>
+            <li  style="position: absolute; right: 8%; top: 25%;"><button id="navbutton"><a href="register.jsp">Sign Up</a></button></li>
+        </ul>
+    </nav>   
+</header> 
+<br><br><br><br>
+<center>
+    <h1 style="color: black; font-size: 70px;">EVENT MANAGEMENT SYSTEM</h1><br>
+    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">"Seamless Solutions for Unforgettable Events.
+       <br> Elevate Your Planning with Precision."</h1><br><br>
+    <button id="getStartedButton" ><a href="login.jsp">Get Started</a></button>
+</center>
+</body>
+</html>
+
